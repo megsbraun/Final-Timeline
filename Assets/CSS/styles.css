@@ -1,0 +1,49 @@
+body {
+    color: #003262;
+    margin:0;
+    font-size: 20px;
+}
+
+
+h1 {
+    color:#C4820E
+}
+
+
+.white-text {
+    color:white
+}
+
+.berkeley-blue {
+    color:#003262 
+}
+
+.box {
+    /* width: 50%; */
+    height: 200px;
+    margin: 25px;
+    /* padding: 30px */
+    border: 1px #DDD5C7;
+    background: #DDD5C7;
+}
+
+/* CSS POSITION DEMO */
+.position-parent {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    color: white;
+    background: #C4820E;
+    position: relative;
+}
+
+
+.position-child-one {
+    width: 100%;
+    height: auto;
+    padding 15px 0;
+    background:#003262;
+    /* position: absolute;
+    top: 0
+    left: 0; */
+}
