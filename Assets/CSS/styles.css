@@ -47,3 +47,35 @@ h1 {
     top: 0
     left: 0; */
 }
+
+
+/* CSS CORNERS AND SHADOWS */
+.simple-rounded-homepage-1 {
+    border-radius: 8px;
+        /* width: 50%; */
+        height: 200px;
+        margin: 25px;
+        /* padding: 30px */
+        border: 1px #DDD5C7;
+        background: #DDD5C7;
+}
+
+.simple-rounded-homepage-2 {
+    border-radius: 8px;
+        /* width: 20%; */
+        height: 100px;
+        margin: 25px;
+        /* padding: 30px */
+        border: 1px #3B7EA1;
+        background: #3B7EA1;
+}
+
+.simple-rounded-2021 {
+    border-radius: 8px;
+        /* width: 20%; */
+        height: 400px;
+        margin: 25px;
+        /* padding: 30px */
+        border: 1px #3B7EA1;
+        background: #3B7EA1;
+}
