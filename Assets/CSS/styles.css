@@ -18,14 +18,52 @@ h1 {
     color:#003262 
 }
 
-.box {
-    /* width: 50%; */
+header {
+    background-color: #C4820E;
     height: 200px;
-    margin: 25px;
-    /* padding: 30px */
-    border: 1px #DDD5C7;
-    background: #DDD5C7;
 }
+
+#wgeo{
+    position: absolute;
+    bottom: 0;
+    left:0;
+}
+
+#ucbe-logo {
+    width:120px;
+    position: absolute;
+    top: 30px;
+    left: 250px;
+    height: 140px;
+}
+
+nav {
+    text-align: right;
+}
+
+nav a,
+nav button{
+    background-color: #003262;
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+}
+nav button{
+    position: relative;
+    top: 150px;
+}
+
+nav  ul{
+    /* display:none; */
+}
+
+nav  ul > li{
+    list-style:none;
+}
+
+
 
 /* CSS POSITION DEMO */
 .position-parent {
@@ -33,7 +71,6 @@ h1 {
     height: auto;
     padding: 30px;
     color: white;
-    background: #C4820E;
     position: relative;
 }
 
