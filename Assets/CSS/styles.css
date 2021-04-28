@@ -1,17 +1,18 @@
 body {
     color: #003262;
     margin:0;
-    font-size: 20px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
 h1 {
-    color:#C4820E
+    color:#C4820E;
 }
 
 
 .white-text {
-    color:white
+    color:white;
 }
 
 .berkeley-blue {
@@ -29,7 +30,7 @@ header {
     left:0;
 }
 
-#ucbe-logo {
+img#ucbe-logo {
     width:120px;
     position: absolute;
     top: 30px;
@@ -37,82 +38,92 @@ header {
     height: 140px;
 }
 
-nav {
-    text-align: right;
-}
-
-nav a,
-nav button{
+#mainnav > div > ul > li > a{
     background-color: #003262;
     color: #FFF;
-    text-decoration: none;
+  }
+
+  #navbarNavDropdown {
+    position: absolute;
+    right: 40px;
+    top: 154px;
+    right: 40px;
     font-size: 20px;
+  }
+
+  #mainnav li {
+    background-color: #003262;
+    color: #FFF;
     width: 200px;
-    height: 50px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  #mainnav button {
+    
+  }
+
+  #mainnav .dropdown-menu a{
+    background-color: #003262;
+    color: #FFF;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    border-top: #fff 1px solid;
+  }
+
+  #mainnav .dropdown-menu {
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+      margin-left:100px;
+      margin-right:100px;
+  }
+
+  footer {
+      background-color: #003262;
+      color: #FFF;
+      height: 200px;
+  }
+
+  footer #social-icons {
+      text-align: right;
+      margin-right: 100px;
+  }
+
+  footer #social-icons a img {
+    height:40px;
+    margin-left:10px;
+  }
+
+  footer #ucbe-footer-logo {
+      margin-left: 100px;
+  }
+
+  footer #ucbe-footer-logo img {
+    width: 300px;
+    display: block;
+  }
+
+  footer #footer-copyright{
+      text-align: center;
+  }
+
+  .light-font {
+            
+    font-weight: 300;
+    font-weight: 300;
 }
-nav button{
-    position: relative;
-    top: 150px;
+
+.italic-font {
+    font-style: italic;
+    font-weight: 300;
 }
 
-nav  ul{
-    /* display:none; */
-}
-
-nav  ul > li{
-    list-style:none;
-}
-
-
-
-/* CSS POSITION DEMO */
-.position-parent {
-    width: 100%;
-    height: auto;
-    padding: 30px;
-    color: white;
-    position: relative;
-}
-
-
-.position-child-one {
-    width: 100%;
-    height: auto;
-    padding 15px 0;
-    background:#003262;
-    /* position: absolute;
-    top: 0
-    left: 0; */
-}
-
-
-/* CSS CORNERS AND SHADOWS */
-.simple-rounded-homepage-1 {
-    border-radius: 8px;
-        /* width: 50%; */
-        height: 200px;
-        margin: 25px;
-        /* padding: 30px */
-        border: 1px #DDD5C7;
-        background: #DDD5C7;
-}
-
-.simple-rounded-homepage-2 {
-    border-radius: 8px;
-        /* width: 20%; */
-        height: 100px;
-        margin: 25px;
-        /* padding: 30px */
-        border: 1px #3B7EA1;
-        background: #3B7EA1;
-}
-
-.simple-rounded-2021 {
-    border-radius: 8px;
-        /* width: 20%; */
-        height: 400px;
-        margin: 25px;
-        /* padding: 30px */
-        border: 1px #3B7EA1;
-        background: #3B7EA1;
+.bold-font{
+    font-weight: 700;
 }
