@@ -3,159 +3,118 @@
 
     <head>
 
-        <meta charset="utf-8" />
-
         <title>
             UCBE Timeline
         </title>
-
-        <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+        <meta charset="utf-8" />
 
         <meta name="description" content="UC Berkeley Extension 130-years time line website
         Collaborative text project" />
 
         <meta name="author" content="Megan Braun" />
 
-    <link rel="stylesheet" href="./Assets/CSS/styles.css" />
-<!-- 
-    <title>Bootstrap grid</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap-grid.min.css" integrity="sha512-cKoGpmS4czjv58PNt1YTHxg0wUDlctZyp9KUxQpdbAft+XqnyKvDvcGX0QYCgCohQenOuyGSl8l1f7/+axAqyg==" crossorigin="anonymous" />
+        <meta name="viewport" content="width=device-width,intial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet"> -->
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+     
+        <link rel="stylesheet" href="./Assets/CSS/styles.css" >
 
-    <style>
-        body {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 30px;
-        }
-
-        .light-font {
-        
-            font-weight: 300;
-            font-weight: 300;
-        }
-
-        .italic-font {
-            font-style: italic;
-            font-weight: 300;
-        }
-
-        .bold-font{
-            font-weight: 700;
-        }
-
-    </style>
-
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>   
+      
     </head>
     
     <body>
 
         <header>
 
-            <img src="./Assets/Images/Website Logo.jpg.png" />
-        
-            <nav>
-                <ul>
-        
-                    <li>
-                        <a href="/" >Homepage</a>
-                    </li>
-        
-                    <li>
-                        <a href="Timeline-1891-1910.html" >Timeline</a>
-                    </li>
-        
-                    <li>
-                        <a href="2021.html" >2021</a>
-                    </li>
-                   
-                    <li>
-                        <a href="Timeline-1891-1910.html" >1891-1910</a>
-                    </li>
-        
-                    <li>
-                        <a href="Timeline-1911-1930.html" >1911-1930</a>
-                    </li>
-        
-                    <li>
-                        <a href="Timeline-1931-1950.html" >1931-1950</a>
-                    </li>
-        
-                    <li>
-                        <a href="Timeline-1951-1970.html" >1951-1970</a>
-                    </li>
-        
-                    <li>
-                        <a href="Timeline-1991-2010.html" >1991-2010</a>
-                    </li>
-        
-                    <li>
-                        <a href="Timeline-2011-2020.html" >2011-2020</a>
-                    </li>
-        
-                </ul>
-            </nav>
-        
-            </header>
+            <!-- <img  id="wgeo" src="whitegeo" /> -->
+       
+             <img id="ucbe-logo" src="./Assets/Images/Website Logo.jpg.png" /> 
+    
+           <nav id="mainnav" class="navbar navbar-expand-lg navbar-light ">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav">
+                   <li class="nav-item active">
+                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                   </li>
+                   <li class="nav-item dropdown">
+                   <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Timeline
+                   </a>
+                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                       <a class="dropdown-item" href="Timeline-1891-1910.html" >1891-1910</a>
+                       <a class="dropdown-item" href="Timeline-1911-1930.html">1911-1930</a>
+                       <a class="dropdown-item" href="Timeline-1931-1950.html">1931-1950</a>
+                       <a class="dropdown-item" href="Timeline-1951-1970.html">1951-1970</a>
+                       <a class="dropdown-item" href="Timeline-1971-1990.html">1971-1990</a>
+                       <a class="dropdown-item" href="Timeline-1991-2010.html">1991-2010</a>
+                       <a class="dropdown-item" href="Timeline-2011-2020.html">2011-2020</a>
+                   </div>
+                   </li>
+                   <li class="nav-item">
+                   <a class="nav-link" href="2021.html">2021</a>
+                   </li>
+               </ul>
+               </div>
+           </nav>
 
-        <h1>
+        </header>
+
+        <main>
+
+            <h1>
             2011-2020
-        </h1>
+            </h1>
 
-            <span>
+                <span>
                 With the rapid development of high speed internet, Extension launched UC Berkeley’s first
-online degree in collaboration with UC Berkeley's School of Public Health in 2012. Following its
-success in online course production, Extension created the Berkeley Resource Center for
-Online Education to provide highest quality production services to all departments of the
-university. To improve accessibility to the growing number of professionals in downtown San
-Francisco, Extension opened its Spear Street campus in the heart of the East Cut in 2015.
-            </span>
+                online degree in collaboration with UC Berkeley's School of Public Health in 2012. Following its
+                success in online course production, Extension created the Berkeley Resource Center for
+                Online Education to provide highest quality production services to all departments of the
+                university. To improve accessibility to the growing number of professionals in downtown San
+                Francisco, Extension opened its Spear Street campus in the heart of the East Cut in 2015.
+                </span>
 
-<img src="./Assets/Images/website images_2011-2020-1.jpg" />
-<img src="./Assets/Images/website images_2011-2020-2.jpg" />
-<img src="./Assets/Images/website images_2011-2020-3.jpg" />
-
-
-            <body>
-
-     <footer> 
-
-                <div class="container">
-                    <h1>footer - bootstrap below</h1>
+                <div>
+                <img src="./Assets/Images/website images_2011-2020-1.jpg" />
+                <img src="./Assets/Images/website images_2011-2020-2.jpg" />
+                <img src="./Assets/Images/website images_2011-2020-3.jpg" />
                 </div>
-            
-                <div class="row">
-                    <div class="col-sm">
-                        1995 University Ave. Berkeley, CA 94704-700 extension@berkeley.edu
-                    </div>
-                    <div class="col-sm">
-                        <a href="https://www.facebook.com/UCBerkeleyExtension/">Facebook</a>
-                    </div>
-                    <div class="col-sm">
-                        <a href="https://www.instagram.com/ucberkeleyext/">Instagram</a>
-                    </div>
-                    <div class="col-sm">
-                        <a href="https://www.linkedin.com/school/ucberkeleyextension/">LinkedIn</a>
-                      </div>
-                      <div class="col-sm">
-                        <a href="https://www.youtube.com/channel/UC20sZe5RHww1skkZmDdHC-w">Youtube</a>
-                      </div>
-                      <div class="col-sm">
-                        <a href="https://twitter.com/UCBerkeleyExt">Twitter</a>
-                      </div>
-                  </div>
-            
-                </body>
+
+        </main>
+
+        <footer> 
+            <div id= "ucbe-footer-logo">
+                <img src="./Assets/Images/uc berkeley extension logo.png" />
+                1995 University Ave. Berkeley, CA 94704-700 <br> extension@berkeley.edu
+            </div>
+
+            <div id= "footer-copyright">
+                copyright
+            </div>
 
 
-      </footer>
+            <div id= "social-icons" >
+
+                <a href="https://www.facebook.com/UCBerkeleyExtension/"> <img src="./Assets/Images/icons/facebook.png"> </a>
+
+                <a href="https://www.instagram.com/ucberkeleyext/"> <img src="./Assets/Images/icons/instagram.png"> </a>
+
+                <a href="https://www.linkedin.com/school/ucberkeleyextension/"> <img src="./Assets/Images/icons/linkedin.png"> </a>
+
+                <a href="https://www.youtube.com/channel/UC20sZe5RHww1skkZmDdHC-w"> <img src="./Assets/Images/icons/youtube.png"> </a>
+
+                <a href="https://twitter.com/UCBerkeleyExt"> <img src="./Assets/Images/icons/twitter.png"> </a>
+
+            </div>
+
+        </footer>
 
     </body>
             
-
-
-                <img src="./Assets/Images/uc berkeley extension logo.png" />
-        
-        
-
