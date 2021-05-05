@@ -3,6 +3,8 @@ body {
     margin:0;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 
@@ -94,6 +96,7 @@ img#ucbe-logo {
       background-color: #003262;
       color: #FFF;
       height: 200px;
+      padding-top: 25px;
   }
 
   footer #social-icons {
@@ -158,4 +161,21 @@ img#ucbe-logo {
 #home-respond {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.b-space {
+    margin-bottom: 50px;
+}
+#footer-social-media{
+    padding-top:20px;
+}
+#footer-social-media  svg {
+    margin-right: 10px;
+}
+
+#footer-copyright{
+    padding-top:20px
+}
+.social-icon {
+    fill: #fff;
 }
