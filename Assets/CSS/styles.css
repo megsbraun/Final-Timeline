@@ -10,6 +10,10 @@ h1 {
     color:#C4820E;
 }
 
+h2 {
+    color:#C4820E;
+}
+
 
 .white-text {
     color:white;
@@ -24,18 +28,18 @@ header {
     height: 200px;
 }
 
-#wgeo{
+img#wgeo{
     position: absolute;
-    bottom: 0;
+    top: 27px;
     left:0;
+    width:280px;
 }
 
 img#ucbe-logo {
     width:120px;
     position: absolute;
-    top: 30px;
-    left: 250px;
-    height: 140px;
+    top: 20px;
+    left: 300px;
 }
 
 #mainnav > div > ul > li > a{
@@ -127,3 +131,22 @@ img#ucbe-logo {
 .bold-font{
     font-weight: 700;
 }
+
+#ucbe-video {
+    border:#DDD5C7 26px solid;
+    border-radius: 20px;
+    width: 611px;
+    height: 367px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#home-respond img {
+    width: 100%;
+    border:#3B7EA1 26px solid;
+    border-radius: 20px;
+
+}
+
