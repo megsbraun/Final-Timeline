@@ -8,10 +8,12 @@ body {
 
 h1 {
     color:#C4820E;
+    font-size: 2.5rem;
 }
 
-h2 {
+h2#our-reach {
     color:#C4820E;
+    font-size: 2.5rem;
 }
 
 
@@ -145,8 +147,15 @@ img#ucbe-logo {
 
 #home-respond img {
     width: 100%;
-    border:#3B7EA1 26px solid;
+    border:#3B7EA1 20px solid;
     border-radius: 20px;
-
 }
 
+#home-respond .col-md {
+    padding: 20px;
+}
+
+#home-respond {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
