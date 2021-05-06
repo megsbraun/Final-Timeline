@@ -7,6 +7,41 @@ body {
     height: 100vh;
 }
 
+header{
+    background-image:url(https://megsbraun.github.io/Final-Timeline/Assets/Images/geo_header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+header #ucbe-logo{
+    background-image: url(https://megsbraun.github.io/Final-Timeline/Assets/Images/header_ucbe_logo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:100px;
+    height:150px;
+   position: absolute;
+   top: 32px;
+   left: 335px;
+}
+
+#mainnav button{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+@media screen and (max-width:767px){
+    #mainnav #navbarNavDropdown {
+      position:absolute;
+      top: 60px;
+      right:0;
+    }
+}
+@media screen and (max-width:1024px){
+    header #ucbe-logo{
+        left:40px;
+    }
+}
+
+
 
 h1 {
     color:#C4820E;
@@ -102,12 +137,15 @@ img#ucbe-logo {
       margin-left:50px;
       margin-right:50px;
     }
+    #timeline .tl-header{
+        padding-top:20px;
+        padding-bottom:20px;
+    }
   }
 
   footer {
       background-color: #003262;
       color: #FFF;
-      height: 200px;
       padding-top: 25px;
   }
 
@@ -122,7 +160,7 @@ img#ucbe-logo {
   }
 
   footer #ucbe-footer-logo {
-      margin-left: 100px;
+      margin-left: 20px;
   }
 
   footer #ucbe-footer-logo img {
@@ -177,12 +215,16 @@ img#ucbe-logo {
 
 .b-space {
     margin-bottom: 50px;
+    color: #003262;
 }
 #footer-social-media{
     padding-top:20px;
 }
 #footer-social-media  svg {
-    margin-right: 10px;
+    margin-right: 5px;
+}
+#footer-social-media  svg:last-child{
+    margin-right:0;
 }
 
 #footer-copyright{
@@ -221,8 +263,13 @@ img#ucbe-logo {
     padding-bottom: 35px;
 }
 
-@media screen {
-        
+.body-2021 {
+    color: #003262;
+}
+
+h1.title-2021 {
+    text-align:center;
+    padding-top: 20px;
 }
 
 
@@ -263,7 +310,7 @@ img#ucbe-logo {
       color:#184470;
     }
     #timeline .tl-header{
-       color:#C4820E;
+        color:#C4820E;
         font-size: 2.5rem;
     }
     #timeline .tl-left .tl-header{
@@ -310,10 +357,19 @@ img#ucbe-logo {
     #timeline #tl-images img{
       width:100%;
     }
-    
+
+    #timeline .tl-info {
+        color: #003262;
+        padding-bottom: 20px; 
+    }
+
+    .space-top {
+        height:60px;
+    }
+
      
      /*NEW STYLES FOR <=600px WIDTH*/
-     @media only screen and (max-width: 600px) {
+     @media only screen and (max-width: 768px) {
          /*hide header horizontal lines  */
        #timeline .tl-right .tl-header:before,
        #timeline .tl-left .tl-header:after {
@@ -335,8 +391,9 @@ img#ucbe-logo {
        #timeline img.geobk{
          display:none;
        }
+       #timeline .tl-info {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     } /*end media query*/
 
-#timeline .tl-info {
-    color: #003262;
-}
