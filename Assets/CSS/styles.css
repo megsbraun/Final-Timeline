@@ -1,7 +1,7 @@
 body {
     color: #003262;
     margin:0;
-    font-size: 1em;
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     width: 100vw;
     height: 100vh;
@@ -93,8 +93,15 @@ img#ucbe-logo {
   }
 
   main {
-      margin-left:100px;
-      margin-right:100px;
+    margin-left:100px;
+    margin-right:100px;
+  }
+
+  @media screen and (max-width:768px) {
+    main {
+      margin-left:50px;
+      margin-right:50px;
+    }
   }
 
   footer {
@@ -149,6 +156,8 @@ img#ucbe-logo {
     margin-right:auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    min-width: 300px;
+    max-width: 560px;
 }
 
 #home-respond img {
@@ -182,3 +191,142 @@ img#ucbe-logo {
 .social-icon {
     fill: #fff;
 }
+
+#collage-2021 {
+    border:#3B7EA1 26px solid;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#3B7EA1;
+    max-width: 800px;
+}
+
+
+#collage-2021 #girl-photo img {
+    height: 100% 
+}
+
+#collage-2021 #girl-photo {
+    padding: 10px; 
+}
+
+#collage-2021 #lawn-photo img {
+    width: 100% 
+}
+
+#collage-2021 #lawn-photo {
+    padding: 10px;
+    }
+
+#collage-2021 #arc-photo img {
+    width: 100% 
+}
+
+#collage-2021 #arc-photo {
+    padding: 10px; 
+    }
+
+    #up-arrow{
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-bottom: 20px solid #C38310;
+      margin:auto;
+      width: 0; 
+      height: 0; 
+      margin:40px auto;
+      text-align: center;
+      display: block;
+    }
+    #down-arrow{
+      border-left: 25px solid transparent;
+      border-right: 25px solid transparent;
+      border-top: 20px solid #C38310;
+      margin:auto;
+      width: 0; 
+      height: 0; 
+      margin:40px auto;
+      text-align: center;
+      display: block;
+    }
+    
+    
+    #timeline h2{
+      text-align:center;
+      color:#184470;
+    }
+    #timeline .tl-header{
+       color:#C38310;
+    }
+    #timeline .tl-left .tl-header{
+      text-align: right;
+      padding-right: 50px;
+    }
+    #timeline .tl-left .textcol {
+      border-right:2px solid #184470;
+    }
+     
+     #timeline .tl-left .tl-header:after{
+       border-top: 2px solid #184470;
+       content: "";
+       display: inline-block;
+       position: relative;
+       top: -6px;
+       width: 82px;
+       right: -65px;
+     }
+     
+     #timeline .tl-right .tl-header{
+       text-align: left;
+       padding-left: 50px;
+     }
+     #timeline .tl-right .textcol {
+       border-left:2px solid #184470;
+     }
+     
+     #timeline .tl-right .tl-header:before{
+       border-top: 2px solid #184470;
+       content: " ";
+       display: inline-block;
+       position: relative;
+       top: -2px;
+       width: 82px;
+       left: -66px;
+     }
+
+
+    #timeline img.geobk{
+      width:100%;
+    }
+
+    #timeline #tl-images img{
+      width:100%;
+    }
+    
+     
+     /*NEW STYLES FOR <=600px WIDTH*/
+     @media only screen and (max-width: 600px) {
+         /*hide header horizontal lines  */
+       #timeline .tl-right .tl-header:before,
+       #timeline .tl-left .tl-header:after {
+         display: none;
+       }
+       /*hide middle of page lines*/
+       #timeline .tl-right .textcol,
+       #timeline .tl-left .textcol {
+         border:none;
+       }
+
+       /* align the headers to the center */
+       #timeline .tl-header{
+         text-align:center;
+         padding-left:0;
+         padding-right:0;
+       }
+         /*hide decorative images */
+       #timeline img.geobk{
+         display:none;
+       }
+    } /*end media query*/
+  </style>
