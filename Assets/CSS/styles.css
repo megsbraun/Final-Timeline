@@ -218,7 +218,13 @@ img#ucbe-logo {
 
 #collage-2021 #lawn-photo {
     padding: 10px;
-    }
+    padding-bottom: 35px;
+}
+
+@media screen {
+        
+}
+
 
 #collage-2021 #arc-photo img {
     width: 100% 
