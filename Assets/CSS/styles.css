@@ -205,7 +205,7 @@ img#ucbe-logo {
 
 
 #collage-2021 #girl-photo img {
-    height: 100% 
+    width: 100% 
 }
 
 #collage-2021 #girl-photo {
@@ -257,7 +257,8 @@ img#ucbe-logo {
       color:#184470;
     }
     #timeline .tl-header{
-       color:#C38310;
+       color:#C4820E;
+        font-size: 2.5rem;
     }
     #timeline .tl-left .tl-header{
       text-align: right;
@@ -329,4 +330,7 @@ img#ucbe-logo {
          display:none;
        }
     } /*end media query*/
-  </style>
+
+#timeline .tl-info {
+    color: #003262;
+}
